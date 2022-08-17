@@ -1,9 +1,11 @@
 <template>
 	<div class="grid-cols-6">
-		<textarea
-			class="w-full h-full border-none p-6"
-			v-model="outputText"
-		></textarea>
+		<div
+			class="w-full h-screen border-none p-6"
+			v-html="outputText"
+		></div>
+
+		>
 	</div>
 </template>
 
@@ -17,3 +19,9 @@ const outputText = computed(() => {
 	return marked(inputText.value);
 });
 </script>
+
+<style scoped>
+div {
+	font-size: 18px;
+}
+</style>
