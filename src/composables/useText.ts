@@ -4,16 +4,22 @@ import { useTextStore } from '../store/textStore';
 export const useText = () => {
 	const textStore = useTextStore();
 
-	const { inputText } = storeToRefs(textStore);
+	const { inputText, hasFile } = storeToRefs(textStore);
 
-	const newInputText = () => {
-		textStore.setInputText(inputText.value);
+	const newInputText = (newText: string) => {
+		textStore.setInputText(newText);
+	};
+
+	const newHasFile = (newHasFile: boolean) => {
+		textStore.setHasFile(newHasFile);
 	};
 
 	return {
 		//props
 		inputText,
+		hasFile,
 		//methods
-		newInputText
+		newInputText,
+		newHasFile
 	};
 };
