@@ -33,7 +33,7 @@
 		></Button>
 
 		<Button
-			v-if="hasFile"
+			class="mx-2"
 			Text="guardar archivo"
 			bg="#81E6D9"
 			color="#112"
