@@ -5,6 +5,7 @@
 🚀 Technologies:
 
 - 🟢 Vue.js
+- 🔵 Typescript
 - 🍍 Pinia
 - 📄 Marked
 - 💨 TailwindCSS
