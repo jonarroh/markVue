@@ -1,19 +1,19 @@
 <template>
 	<nav class="flex items-center">
-		//<svg
-			//xmlns="http://www.w3.org/2000/svg"
-			//width="24"
-			//height="24"
-			//viewBox="0 0 24 24"
-			//:stroke="color"
-			//stroke-width="2"
-			//stroke-linecap="round"
-			//stroke-linejoin="round"
-			//class="feather feather-menu cursor-pointer">
-			//<line x1="3" y1="12" x2="21" y2="12"></line>
-			//<line x1="3" y1="6" x2="21" y2="6"></line>
-			//<line x1="3" y1="18" x2="21" y2="18"></line>
-		//</svg>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="24"
+			height="24"
+			viewBox="0 0 24 24"
+			:stroke="color"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			class="feather feather-menu cursor-pointer">
+			<line x1="3" y1="12" x2="21" y2="12"></line>
+			<line x1="3" y1="6" x2="21" y2="6"></line>
+			<line x1="3" y1="18" x2="21" y2="18"></line>
+		</svg>
 
 		<h1 class="px-2 text-2xl text-white">Markue</h1>
 		<input
